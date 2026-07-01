@@ -1,0 +1,78 @@
+canonical_identifier: bkk:krp/KR6d0168/T/v1
+canonical_location: https://kanripo.org/bkk/KR6d0168/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 天台四教儀
+  identifiers:
+    krp: KR6d0168
+    cbeta: T46n1931
+    cbeta_old_id: T46n1931
+    authorityid: CA0003242
+    json_key: T1931
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T46/T46n1931.xml
+    old_id: T46n1931
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6d0168_000-T.yaml, hash: 'sha256:bcdbe32593c43577719e08af84281008d6b4872002ba60d5ed08fe7a5533f062'}
+  - {seq: 1, filename: KR6d0168_001-T.yaml, hash: 'sha256:2683b378d7f1ea87604d4cf673c89a6c9ef0983af54680b27f5ecf414f1d20f6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6d0168_000-T.markers.yaml, hash: 'sha256:c7d066e7e086a6329ae65a1004eb4c58f7be2754ed046f927874f3d6a96d3a19'}
+  - {seq: 1, role: markers, filename: assets/KR6d0168_001-T.markers.yaml, hash: 'sha256:afde64e0a09520a9123773ea855288fc01bda56f734e43240321fc82235db433'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6d0168_T_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 四教頌
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6d0168_T_000-mulu-2
+    span:
+    - front
+    - 143
+    - 143
+  label: 四教儀緣起
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6d0168_T_000-mulu-3
+    span:
+    - front
+    - 702
+    - 702
+  label: 刻天台四教儀引
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0168_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 9447
+  label: 天台四教儀
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6d0168_T_001-mulu-1
+    span:
+    - body
+    - 7
+    - 7
+  label: 天台四教儀
+  type: mulu
+  level: 1
+hash: sha256:c225347c36d83123a3611137af041786695a91a887df3d47ed5c5ab32cec0257
