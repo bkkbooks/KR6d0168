@@ -19,17 +19,17 @@ metadata:
     short: T
 assets:
   parts:
-  - {seq: 0, filename: KR6d0168_000-T.yaml, hash: 'sha256:bcdbe32593c43577719e08af84281008d6b4872002ba60d5ed08fe7a5533f062'}
+  - {seq: 0, filename: KR6d0168_000-T.yaml, hash: 'sha256:c935eea788d6c415264157bd71fe619e1dea5d05b4473b7b033d9d63bc0bc68e'}
   - {seq: 1, filename: KR6d0168_001-T.yaml, hash: 'sha256:2683b378d7f1ea87604d4cf673c89a6c9ef0983af54680b27f5ecf414f1d20f6'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6d0168_000-T.markers.yaml, hash: 'sha256:c7d066e7e086a6329ae65a1004eb4c58f7be2754ed046f927874f3d6a96d3a19'}
+  - {seq: 0, role: markers, filename: assets/KR6d0168_000-T.markers.yaml, hash: 'sha256:c5f19a115fad33138a77a33292bfb020d328ed6b4d8b90c2a79247f3ea4d4879'}
   - {seq: 1, role: markers, filename: assets/KR6d0168_001-T.markers.yaml, hash: 'sha256:afde64e0a09520a9123773ea855288fc01bda56f734e43240321fc82235db433'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6d0168_T_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 四教頌
@@ -39,7 +39,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6d0168_T_000-mulu-2
     span:
-    - front
+    - body
     - 143
     - 143
   label: 四教儀緣起
@@ -49,7 +49,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6d0168_T_000-mulu-3
     span:
-    - front
+    - body
     - 702
     - 702
   label: 刻天台四教儀引
@@ -75,4 +75,4 @@ table_of_contents:
   label: 天台四教儀
   type: mulu
   level: 1
-hash: sha256:c225347c36d83123a3611137af041786695a91a887df3d47ed5c5ab32cec0257
+hash: sha256:ad5575804118a9cdb2ea40324bbc27dd2bd2ca38b290ccafec4dd91856baf4bd
